@@ -35,7 +35,7 @@ Software: Python 3.6.1, Pandas library, Jupyter Notebook
 
 ## School District Analysis and Results
 
-For this school district analysis ([PyCitySchools_Chalenge.ipynb](PyCitySchools_Chalenge.ipynb)),Python Pandas library and Python NumPy module were used, along with Jupyter Notebook.  A development environment called PythonData was created which uses Python version 3.6.
+For this school district analysis ([PyCitySchools_Challenge.ipynb](PyCitySchools_Challenge.ipynb)),Python Pandas library and Python NumPy module were used, along with Jupyter Notebook.  A development environment called PythonData was created which uses Python version 3.6.
 
 In this analysis, using Pandas loc method with conditional statements, comparison and logical operators was used to select 9th grade reading and math scores for Thomas High School.  Pandas NumPy module was used to change math and reading grades to NaN. For school performance based on budget and School Size bins were used.
 
@@ -45,11 +45,11 @@ Below describes how the key analysis points were affected by updating the Thomas
 
 School District:
 
-School District original analysis:
+Original analysis:
 
 ![district_summary_original.PNG](Resources/district_summary_original.PNG)
 
-School District analysis after updating scores:
+After updating scores:
 
 ![district_summary_updated.PNG](Resources/district_summary_updated.PNG)
 
@@ -64,11 +64,11 @@ The analysis showed the following:
 
 School Summary:
 
-School Summary original analysis:
+Original analysis:
 
 ![school_summary_original.PNG](Resources/school_summary_original.PNG)
 
-School Summary analysis after replacing math and reading scores:
+After updating scores:
 
 ![school_summary_updated.PNG](Resources/school_summary_updated.PNG)
 
@@ -82,13 +82,30 @@ The analysis showed the fllowing:
 	
 Thomas High School’s performance relative to the other schools :
 
+Original analysis:
+
+![top_schools_original.PNG](Resources/top_schools_original.PNG)
+
+After updating scores:
+
+![top_schools_updated.PNG](Resources/top_schools_updated.PNG)
+
+
 The original analysis showed that Thomas High School was number 2 in top schools based on %Overall Passing at 90.94.  After replacing the ninth graders’ math and reading scores, its position dropped to number 8.
 
-Math and reading scores by grade:  
+Math and reading scores by grade: 
 
 After replacing the ninth grade math and reading scores,  the data shows “nan” in the 9th grade column for math and reading for Thomas High School.
 
 Scores by school spending:
+
+Original:
+
+![spending_summary_original.PNG](Resources/spending_summary_original.PNG)
+
+After updating scores:
+
+![spending_summary_updated.PNG](Resources/spending_summary_updated.PNG)
 
 For the “Spending ranges for $630-644” category,  
 - % Passing Math went down from 73% to 67%
@@ -97,12 +114,28 @@ For the “Spending ranges for $630-644” category,
 
 Scores by school size:
 
+Original:
+
+![size_summary_original.PNG](Resources/size_summary_original.PNG)
+
+After updating scores:
+
+![size_summary_updated.PNG](Resources/size_summary_updated.PNG)
+
 In the Medium (1000-2000) school size category, 
-- % Passing Math went down from 94% to 88 
+- % Passing Math went down from 94% to 88% 
 - % Passing Reading went down from 97% to 91%
 - % Overall Passing went down from 91% to 85%.
 
 Scores by school type:
+
+Original:
+
+![type_summary_original.PNG](Resources/type_summary_original.PNG)
+
+After updating scores:
+
+![ttpe_summary_updated.PNG](Resources/type_summary_updated.PNG)
 
 For “Charter” school type 
 - % Passing Math category went down from 94% to 90% , 
